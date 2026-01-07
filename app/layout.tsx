@@ -41,6 +41,21 @@ export default function RootLayout({
             <body className={`${inter.className} react-app`}>
                 <MouseCursor />
 
+                {/* Global Site Tag (gtag.js) - Google Analytics */}
+                <Script
+                    src="https://www.googletagmanager.com/gtag/js?id=G-GXDYXNRVYV"
+                    strategy="afterInteractive"
+                />
+                <Script id="google-analytics" strategy="afterInteractive">
+                    {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-GXDYXNRVYV');
+          `}
+                </Script>
+
                 {/* jQuery first */}
                 <Script
                     src="/assets/js/jquery-3.7.1.min.js"
