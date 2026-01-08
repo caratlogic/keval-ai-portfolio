@@ -19,13 +19,16 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Keval-AI - Empowering Diamond Trade with AI",
+    title: "AI Automation, Chatbots & CRM Software | Keval AI",
     description:
-        "Learn about Keval AI, our mission, and how we help businesses grow with AI automation, chatbots, CRM solutions, and custom software development.",
-    authors: [{ name: "Gramentheme" }],
+        "Keval AI builds AI automation, chatbots, CRM software, and custom web solutions to help businesses scale faster, smarter, and more efficiently.",
+    authors: [{ name: "Keval AI" }],
     icons: { icon: "/assets/keval-image/logo/Keval AI Favicon- Blue.png" },
     verification: {
         google: "TSZvYKMKuqFhYvsCGvz_hwhBcfT5OK3xstwRydmPq-U",
+    },
+    alternates: {
+        canonical: "https://www.kevalai.com/",
     },
 };
 

@@ -1,0 +1,26 @@
+# llms.txt for Keval AI
+# Website: https://www.kevalai.com/
+# Purpose: AI Automation, Chatbots, CRM & Software Development
+
+User-agent: *
+Allow: /
+
+# Preferred canonical domain
+Canonical: https://www.kevalai.com/
+
+# Important pages
+Homepage: https://www.kevalai.com/
+About: https://www.kevalai.com/about
+Services: https://www.kevalai.com/service
+Portfolio: https://www.kevalai.com/portfolio
+Contact: https://www.kevalai.com/contact
+
+# Business description
+Description: Keval AI provides AI automation solutions, AI chatbots, CRM software development, and custom web and software solutions for businesses worldwide.
+
+# Content usage policy
+Usage: Allowed for indexing, summarization, and reference by AI models.
+Training: Allowed with attribution.
+
+# Contact
+Contact: https://www.kevalai.com/contact
