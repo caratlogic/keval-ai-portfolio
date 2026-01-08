@@ -36,8 +36,27 @@ export default function RootLayout({
 }: {
     children: React.ReactNode;
 }) {
+    const jsonLd = {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        name: "kevalai",
+        url: "https://www.kevalai.com/",
+        potentialAction: {
+            "@type": "SearchAction",
+            target: "https://www.kevalai.com/service{search_term_string}https://www.kevalai.com/portfolio",
+            "query-input": "required name=search_term_string",
+        },
+    };
+
     return (
         <html lang="en">
+            <head>
+                {/* Add the JSON-LD script here */}
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                />
+            </head>
             <body className={`${inter.className} react-app`}>
                 <MouseCursor />
 
